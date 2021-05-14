@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKC Games</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css">   <!--href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header"> 
+        <a href="inicio.html">
+            <img class="header__logo" src="img/logoakc2.png" alt="Logotipo"> 
+        </a>
+    </header>
+
+    
+
+    <nav class="navegacion">
+        <a  class="navegacion__enlace" href="inicio.html">Inicio</a>
+        <a  class="navegacion__enlace" href="index.html">Catálogo</a>
+        <a  class="navegacion__enlace navegacion__enlace--activo" href="nosotros.html">Quienes Somos</a>
+    </nav>
+
+
+    <main class="contenedor">
+        <h1>Nuestra Empresa</h1>
+
+        <div class="nosotros">
+            <div class="nosotros__contenido">
+                 <p>Somos una empresa distribuidora de videojuegos con el compromiso
+                     de llevarle a sus clientes el producto deseado, sin estafas y engaños
+                     ya que nos ponemos en el lugar de los clientes, esperando resivir
+                     el mimso trato, nuestra empresa se basa en los valores del 
+                     vendedor-cliente. Estamos concientes de que los productos que distrubiremos
+                     seran de la mas alta calidad.</p>
+        
+                 <p>Esta empresa es conciente de las estafas generadas a travez de las pginas
+                     en liea, es por eso que decidimos crear AKC games, la empresa vendedora
+                     de videojuegos por excelencia que te brindara hasta la puerta de tu hogar
+                     el producto que sea de su preferencia..</p>
+
+            </div>
+            <img class="nosotros__imagen" src="img/nosotros.jpg" alt="imagen nosotros">
+        </div>
+    </main>
+
+    <section class="contenedor comprar">
+       <h2 class="comprar__titulo">¿Que te ofeecemos?</h2>
+
+       <div class="bloques">
+           <div class="bloque">
+               <img class="bloque__imagen" src="img/icono_1.png" alt="porque comprar">
+               <h3 class="bloque__titulo">Buen Precio</h3>
+               <p>Te ofecemos el mejor precio en el mercado de los videojuegos
+                   con precios 100% reales y nada inflados.</p>
+           </div> <!--final de .bloque-->
+
+           <div class="bloque">
+            <img class="bloque__imagen" src="img/icono_2.png" alt="porque comprar">
+            <h3 class="bloque__titulo">Formas de pago</h3>
+            <p>Te ofrecemos diferentes formas de pago para que cualquier persona
+                pueda comprar nuestros productos.</p>
+        </div> <!--final de .bloque-->
+
+        <div class="bloque">
+            <img class="bloque__imagen" src="img/icono_3.png" alt="porque comprar">
+            <h3 class="bloque__titulo">Envio Seguro</h3>
+            <p>Nuestro compromiso es hacerte llegar el producto hata la puerta
+                de tu hogar.</p>
+        </div> <!--final de .bloque-->
+
+        <div class="bloque">
+            <img class="bloque__imagen" src="img/icono_4.png" alt="porque comprar">
+            <h3 class="bloque__titulo">Atencion al cliente</h3>
+            <p>Cualquier inconveniente sera atendio en nuestros horarios de atencion
+                para tener un trato vendedor-cliente seguro.</p>
+        </div> <!--final de .bloque-->
+
+       </div> <!--final de .bloques-->
+    </section>
+
+    <footer class="footer">
+        <div id="contacto" class="contacto">
+            <h2>Contacto</h2>
+            <form class="contactanos" action="#" method="POST">
+                <legend>Contactános llenando todos los campos</legend>
+                <div class="contenedor-campos">
+                    <div class="campo">
+                        <label>Nombre</label>
+
+                        <input type="text" name="nombre" placeholder="Nombre" required>
+                    </div>
+                    <div class="campo">
+                        <label>Teléfono</label>
+
+                        <input type="tel" name="telefono" placeholder="Teléfono">
+                    </div>
+                    <div class="campo w-100">
+                        <label>Correo</label>
+
+                        <input type="mail" name="correo" placeholder="Mail">
+                    </div>
+                    <div class="campo w-100">
+                        <label>Mensaje:</label>
+
+                        <textarea></textarea>
+                    </div>
+                </div><!--.contenedor-campos-->
+                <div class="enviar">
+                    <input class="boton" type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
+
+
+        <p class="footer__texto">AKC Games - Torréon Coahuila Mexico, Calle Vencejos #125 col. Jacarandas
+            - akcgames00@gmail.com - 8711561070.</p>
+    </footer>
+
+</body>
+</html>

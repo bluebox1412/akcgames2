@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKC Games</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css">   <!--href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header class="header"> 
+        <a href="inicio.html">
+            <img class="header__logo" src="img/logo.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a  class="navegacion__enlace navegacion__enlace--activo" href="inicio.html">Inicio</a>
+        <a  class="navegacion__enlace" href="index.php">Catálogo</a>
+        <a  class="navegacion__enlace" href="nosotros.html">Quienes Somos</a>
+    </nav>
+
+    <div class="hero"></div>
+
+    <main class="contenedor">
+        <h1>Te ofrecemos</h1>
+
+        <div class="grid">
+            <div class="producto">
+                
+                    <img class="producto__imagen" src="img/inicio1.jpg" alt="imagen juego">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">Visión</p>
+                    </div>
+                </a>
+            </div> <!--fin de la clase producto-->
+
+            <div class="producto">
+                
+                    <img class="producto__imagen" src="img/inicio2.jpg" alt="imagen juego">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">Compromiso</p>
+                    </div>
+                </a>
+            </div> <!--fin de la clase producto-->
+
+            <div class="producto">
+                
+                    <img class="producto__imagen" src="img/inicio3.jpg" alt="imagen juego">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">Bienestar</p>
+                    </div>
+                </a>
+            </div> <!--fin de la clase producto-->
+
+            <div class="producto">
+                
+                    <img class="producto__imagen" src="img/4.jpg" alt="imagen juego">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">OFERTAS ESPECIALES</p>
+                        <p class="producto__precio">-10%</p>
+                    </div>
+                </a>
+            </div> <!--fin de la clase producto-->
+
+            <div class="grafico grafico--inicio"></div>
+           
+
+        </div>
+    </main>
+
+    <footer class="footer">
+
+        <div id="contacto" class="contacto">
+            <h2>Contacto</h2>
+            <form class="contactanos" action="#" method="POST">
+                <legend>Contactános llenando todos los campos</legend>
+
+                <div class="contenedor-campos">
+                    <div class="campo">
+                        <label>Nombre</label>
+
+                        <input type="text" name="nombre" placeholder="Nombre" required>
+                    </div>
+                    <div class="campo">
+                        <label>Teléfono</label>
+
+                        <input type="tel" name="telefono" placeholder="Teléfono">
+                    </div>
+                    <div class="campo w-100">
+                        <label>Correo</label>
+
+                        <input type="mail" name="correo" placeholder="Mail">
+                    </div>
+                    <div class="campo w-100">
+                        <label>Mensaje:</label>
+
+                        <textarea></textarea>
+                    </div>
+                </div><!--.contenedor-campos-->
+                <div class="enviar">
+                    <input class="boton" type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
+
+
+        <p class="footer__texto">AKC Games - Torréon Coahuila Mexico, Calle Vencejos #125 col. Jacarandas
+            - akcgames00@gmail.com - 8711561070.</p>
+    </footer>
+
+</body>
+</html>
